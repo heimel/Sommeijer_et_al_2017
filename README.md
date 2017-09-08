@@ -8,5 +8,6 @@ The matlab data in this repository can be used to remake the panels for Figures 
 4. If the folder 'Sommeijer_et_al_2017' was created on the Desktop, then proceed to step 6.
 5. Edit processparams_local.m and add the line `params.databasepath_localroot = 'XXX'`  
 where XXX should be the name of the parent folder in of the Sommeijer_et_al_2017 folder
-6. Run the script `graph_db` to open a gui which with the figures can be created. Check the online wiki-site [https://github.com/heimel/InVivoTools/wiki] for more information on how to use InVivoTools.
+6. Type `experiment('sommeijer_et_al_2017')` on the matlab-prompt.
+7. Run the script `graph_db` to open a gui which with the figures can be created. Check the online wiki-site https://github.com/heimel/InVivoTools/wiki for more information on how to use InVivoTools.
 
